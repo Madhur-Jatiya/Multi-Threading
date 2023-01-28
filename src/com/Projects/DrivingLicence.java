@@ -51,7 +51,7 @@ class DocumentVerification implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("DocumentVerification");
+        System.out.println("Document Verification");
     }
 }
 
@@ -59,7 +59,7 @@ class BioMetricVerification implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("BioMetricVerification");
+        System.out.println("BioMetric Verification");
     }
 }
 
@@ -67,6 +67,6 @@ class OfficerSignature implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("OfficerSignature");
+        System.out.println("Officer Signature");
     }
 }
