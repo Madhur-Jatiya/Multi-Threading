@@ -15,7 +15,7 @@ public class YieldMethod implements Runnable {
         Thread th = new Thread(yieldMethod);
         th.setPriority(10);
         th.start();
-//        Thread.yield();
+        Thread.yield();
 
         for (int i = 0; i < 10; i++) {
             System.out.println(Thread.currentThread().getName());
