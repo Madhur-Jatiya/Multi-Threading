@@ -21,5 +21,4 @@ public class YieldMethod implements Runnable {
             System.out.println(Thread.currentThread().getName());
         }
     }
-
 }
