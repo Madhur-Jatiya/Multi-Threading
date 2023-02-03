@@ -18,7 +18,7 @@ public class Main implements Runnable {
         
         Main main2 = new Main();
         Thread th2 = new Thread(main2);
-        main2.seat = 7;
+        main2.seat = 9;
         th2.start();
     }
     
