@@ -1,4 +1,4 @@
-package Synchronization.Ticket_Booking_With_Synchronization;
+package Synchronization.Ticket_Booking_With_Synchronized_Method;
 
 public class Main implements Runnable {
 

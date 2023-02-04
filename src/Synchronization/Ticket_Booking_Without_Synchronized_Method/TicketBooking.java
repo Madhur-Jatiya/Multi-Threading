@@ -1,4 +1,4 @@
-package Synchronization.Ticket_Booking_Without_Synchronization;
+package Synchronization.Ticket_Booking_Without_Synchronized_Method;
 
 public class TicketBooking {
 
