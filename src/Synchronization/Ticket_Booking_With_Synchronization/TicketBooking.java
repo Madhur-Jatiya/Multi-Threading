@@ -1,10 +1,10 @@
-package Synchronization.Ticket_Booking_Without_Synchronization;
+package Synchronization.Ticket_Booking_With_Synchronization;
 
 public class TicketBooking {
 
     private int total_seats = 10;
 
-    public void seatBooking(int seats) {
+    synchronized public void seatBooking(int seats) {
         if (seats <= total_seats) {
             System.out.println(seats + " Seat Booked Successfully");
             total_seats = total_seats - seats;
