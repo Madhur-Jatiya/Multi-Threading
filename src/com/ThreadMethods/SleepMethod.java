@@ -1,4 +1,3 @@
-//Clock Using Thread
 package com.ThreadMethods;
 
 public class SleepMethod implements Runnable {
