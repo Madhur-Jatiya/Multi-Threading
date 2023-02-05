@@ -13,7 +13,7 @@ public class JoinMethod implements Runnable {
         JoinMethod joinMethod = new JoinMethod();
         Thread th = new Thread(joinMethod);
         th.setName("Thread 1");
-        
+                
         th.start();
         th.join();        
         

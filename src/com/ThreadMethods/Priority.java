@@ -1,10 +1,10 @@
+//windows not support priority
 package com.ThreadMethods;
 
 public class Priority implements  Runnable{
 
     @Override
     public void run() {
-//        System.out.println(Thread.currentThread().getName() + " priority = " + Thread.currentThread().getPriority());
         System.out.println(Thread.currentThread().getName());
     }
     
@@ -36,7 +36,7 @@ public class Priority implements  Runnable{
         
         Thread th5 = new Thread(priority);
         th5.setPriority(2);
-        th5.setName("priority 2");
+        th5.setName("priority 20");
         th5.start();
     }
     
