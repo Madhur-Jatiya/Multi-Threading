@@ -3,7 +3,7 @@ package com.SingleTask_SingleThread;
 public class Mutithreading_RunnableInterface implements Runnable{
     public void run()
     {
-        System.out.println("Thread Method");
+        System.out.println("Run Method using Runnable Interface");
     }
     
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ package com.SingleTask_SingleThread;
 public class Mutithreading_ThreadClass extends Thread{
     public void run()
     {
-        System.out.println("Thread Method");
+        System.out.println("Run Method using Thread Class");
     }
     
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ package com.SingleTask_MultiThread;
 public class VLC_Player implements Runnable{
     public void run()
     {
-        System.out.println("Thread Method");
+        System.out.println(Thread.currentThread().getName());
     }
     
     public static void main(String[] args) {
@@ -12,13 +12,16 @@ public class VLC_Player implements Runnable{
         VLC_Player m = new VLC_Player();
         
         Thread voice = new Thread(m);
+        voice.setName("voice thread");
         voice.start();
         
         Thread video = new Thread(m);
+        video.setName("video thread");
         video.start();
         
-        Thread timer = new Thread(m);
-        timer.start();
+        Thread volume = new Thread(m);
+        volume.setName("volumne thread");
+        volume.start();
     }
     
 }
