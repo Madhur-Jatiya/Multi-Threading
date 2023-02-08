@@ -14,6 +14,8 @@ public class SleepMethod {
                     if( i == 23 && j == 59)
                     {
                         System.out.println("=============================================================");
+                        System.out.println("New Day");
+                        System.out.println("=============================================================");
                         main(args);
                     }
                 }
